@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<body>
+    
+<script>
+var counter = (function() {
+  var i=0;
+  return function() { return i++; };
+})();
+alert(counter()); //0
+alert(counter()); //1
+</script>
+
+</body>
+</html>
